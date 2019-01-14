@@ -1,0 +1,38 @@
+{
+  "name": "belu_web",
+  "version": "0.0.1",
+  "description": "The profesional portfolio of my friend la belu",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "yarn test",
+    "less-c": "lessc styles/style.less styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaucharian/belu_web.git"
+  },
+  "author": "AS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chaucharian/belu_web/issues"
+  },
+  "homepage": "https://github.com/Chaucharian/belu_web#readme",
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.10",
+    "less": "^3.8.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^5.12.0",
+    "eslint-config-google": "^0.11.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}

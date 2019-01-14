@@ -1,0 +1,5 @@
+#Ignore node-modules
+node_modules/
+
+#we don't need the distribution folder then ignore it
+dist/
