@@ -29,6 +29,8 @@ module.exports = exports = {
       ],
     
       "rules": {
+        'no-tabs': 'off',
+        'indent': 'off',    
         "jsx-quotes": ["warn", "prefer-double"],
         "react/jsx-no-bind": ["error", {
           "allowArrowFunctions": true,
